@@ -21,23 +21,24 @@ build:
 
 requirements:
   host:
-    - python=3.11
+    - python =3.11
     - pip
+    - setuptools <82
     - versioneer
     - wheel
   run:
-    - python=3.11
-    - numpy=1.26.4
-    - ambertools<24
-    - mpi4py=4.0.1
-    - matplotlib=3.7.3
-    - scipy=1.14.1
-    - parmed<5
-    - pandas=1.5.3
-    - seaborn=0.11.2
+    - python =3.11
+    - numpy =1.26.4
+    - ambertools <24
+    - mpi4py =4.0.1
+    - matplotlib =3.7.3
+    - scipy =1.14.1
+    - parmed <5
+    - pandas =1.5.3
+    - seaborn =0.11.2
     - tqdm
     - git
-    - pyqt=6.7
+    - pyqt =6.7
 
 test:
   imports:
